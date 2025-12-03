@@ -75,6 +75,8 @@ html {
 
     -o-text-size-adjust: none;
     /*old versions of Opera*/
+
+    overflow-x: hidden; /* 가로 스크롤 제거 */
 }
 
 body {
@@ -82,6 +84,8 @@ body {
     font-size: 20px;
     line-height: 1.5em;
     color: #222;
+
+    overflow-x: hidden; /* 가로 스크롤 제거 */
 }
 
 h2 {
