@@ -198,7 +198,8 @@ h3 {
 }
 
 .slogan1 {
-    margin: 46px 0 110px;
+    margin: 46px auto 110px;
+    width: 1320px;
 }
 
 .en {
