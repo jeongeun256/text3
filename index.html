@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>PROUST</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- webfont 연결-->
+    <!-- font-family: 'Pretendard Variable';-->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <!-- font-family: "Noto Serif KR", serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css 연결-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header S -->
+        <div id="header">
+            <div class="inner_header">
+                <ul class="gnb_left">
+                    <li>
+                        <a href="#section1">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#section2">CLOTHES</a>
+                    </li>
+                </ul><!-- .gnb_left -->
+                <h1>
+                    <a href="#">
+                        <img src="images/logo.svg" alt="PROUST logo">
+                    </a>
+                </h1>
+                <ul class="gnb_right">
+                    <li>
+                        <a href="#section3">GOODS</a>
+                    </li>
+                    <li>
+                        <a href="#section4">EVENTS</a>
+                    </li>
+                </ul><!-- .gnb_right -->
+            </div><!-- .inner_header -->z
+        </div>
+        <!-- header E -->
+
+        <!-- visual S -->
+        <div id="visual">
+            <!-- swiper -->
+            <div class="swiper visualSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_01.png" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_02.png" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main_banner_03.png" alt="배너">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <!-- visual E -->
+
+        <!-- section1_ABOUT S -->
+        <div id="section1">
+            <h2 data-aos="fade-down" data-aos-duration="2000">ABOUT</h2>
+            <span class="bar1" data-aos="fade-down" data-aos-duration="2000"></span>
+            <div class="slogan1">
+                <p class="en" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="100">Blooming again, right
+                    here, right now.</p>
+                <p class="kr" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="300">과거의 미는 잊혀지는 것이 아닌 다시
+                    피어나는 것</p>
+                <p class="en" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="100">Embodying the beauty
+                    of Joseon</p>
+            </div><!-- .slogan1 -->
+            <div class="slogan2">
+                <p class="kr2 " data-aos="fade-down" data-aos-anchor-placement="center-center" data-aos-duration="2000">
+                    여기, 지금 다시 한 번 꽃피우다</p>
+                <p class="en2" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000">
+                    Blooming again, right here, right now.</p>
+            </div>
+        </div>
+        <!-- section1_ABOUT E -->
+
+        <!-- section2_CLOTHES S -->
+        <div id="section2">
+            <h2 data-aos="fade-down" data-aos-duration="2000">CLOTHES</h2>
+            <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">NEW</h3>
+            <span class="bar2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300"></span>
+            <ul class="product" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <li><!-- 1 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/new_01.png" alt="신제품">
+                        </div>
+                        <p class="product_name">휘리휘리 Setup</p>
+                        <p class="price">256,000</p>
+                    </a>
+                </li>
+                <li><!-- 2 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/new_02.png" alt="신제품">
+                        </div>
+                        <p class="product_name">화조도 Setup</p>
+                        <p class="price">250,000</p>
+                    </a>
+                </li>
+                <li><!-- 3 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/new_03.png" alt="신제품">
+                        </div>
+                        <p class="product_name">어여쁘 Setup</p>
+                        <p class="price">287,000</p>
+                    </a>
+                </li>
+                <li><!-- 4 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/new_04.png" alt="신제품">
+                        </div>
+                        <p class="product_name">원문 Dress</p>
+                        <p class="price">250,000</p>
+                    </a>
+                </li>
+            </ul>
+            <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">BEST SELLER</h3>
+            <span class="bar2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300""></span>
+            <ul class=" product" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <li><!-- 1 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/best_01.png" alt="베스트제품">
+                        </div>
+                        <p class="product_name">꽃원문 Dress</p>
+                        <p class="price">250,000</p>
+                    </a>
+                </li>
+                <li><!-- 2 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/best_02.png" alt="베스트제품">
+                        </div>
+                        <p class="product_name">민들레 Dress</p>
+                        <p class="price">250,000</p>
+                    </a>
+                </li>
+                <li><!-- 3 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/best_03.png" alt="베스트제품">
+                        </div>
+                        <p class="product_name">능형문 Setup</p>
+                        <p class="price">278,000</p>
+                    </a>
+                </li>
+                <li><!-- 4 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/best_04.png" alt="베스트제품">
+                        </div>
+                        <p class="product_name">화조화 Setup</p>
+                        <p class="price">280,000</p>
+                    </a>
+                </li>
+                </ul>
+        </div>
+        <!-- section2_CLOTHES E -->
+
+        <!-- section3_GOODS S -->
+        <div id="section3">
+            <h2 data-aos="fade-down" data-aos-duration="2000">GOODS</h2>
+            <span class="bar1" data-aos="fade-up" data-aos-duration="2000"></span>
+            <ul class="product1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <li><!-- 1 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_01.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust towel</p>
+                        <p class="price">11,800</p>
+                    </a>
+                </li>
+                <li><!-- 2 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_02.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust Eco Bag</p>
+                        <p class="price">21,800</p>
+                    </a>
+                </li>
+                <li><!-- 3 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_03.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust cup</p>
+                        <p class="price">27,800</p>
+                    </a>
+                </li>
+                <li><!-- 4 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_04.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust Grip Talk</p>
+                        <p class="price">11,800</p>
+                    </a>
+                </li>
+                <li><!-- 5 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_05.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust phone case</p>
+                        <p class="price">11,800</p>
+                    </a>
+                </li>
+                <li><!-- 6 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_06.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust hand mirror</p>
+                        <p class="price">11,800</p>
+                    </a>
+                </li>
+                <li><!-- 7 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_07.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Proust ribbon Keyring</p>
+                        <p class="price">51,800</p>
+                    </a>
+                </li>
+                <li><!-- 8 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_08.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">Jorigae gat Keyring </p>
+                        <p class="price">26,900</p>
+                    </a>
+                </li>
+                <li><!-- 9 -->
+                    <a href="#">
+                        <div class="img_wrap">
+                            <img src="./images/goods_09.png" alt="굿즈">
+                        </div>
+                        <p class="product_name">light Jorigae Keyring </p>
+                        <p class="price">27,800</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- section3_GOODS E -->
+
+        <!-- section4_EVENT S -->
+        <div id="section4">
+            <h2 data-aos="fade-down" data-aos-duration="2000">GOODS</h2>
+            <span class="bar1" data-aos="fade-up" data-aos-duration="2000"></span>
+            <ul class="event_list" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <li><!-- 1 -->
+                    <a href="#">
+                        <img src="./images/event01.png" alt="이벤트1">
+                    </a>
+                </li>
+                <li><!-- 2 -->
+                    <a href="#">
+                        <img src="./images/event02.png" alt="이벤트2">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- section4_EVENT E -->
+
+        <!-- footer S -->
+        <div id="footer">
+            <div class="inner_footer">
+                <h1>
+                    <a href="#">
+                        <img src="./images/logo.svg" alt="PROUST logo">
+                    </a>
+                </h1>
+                <ul class="footer_list">
+                    <li><!-- 1 -->
+                        <p class="footer_title">
+                            Address
+                        </p>
+                        <p class="footer_text">
+                            26 Jungang-daero, Jung-gu, Busan
+                        </p>
+                    </li>
+                    <li><!-- 2 -->
+                        <p class="footer_title">
+                            Contact
+                        </p>
+                        <p class="footer_text">
+                            Tel. 222-251-2512
+                            <br>
+                            Fax. 222-251-2513
+                        </p>
+                    </li>
+                    <li><!-- 3 -->
+                        <p class="footer_title">
+                            Follow Us
+                        </p>
+                        <p class="sns">
+                            <a href="#">
+                                <img src="./images/sns01.png" alt="sns">
+                            </a>
+                            <a href="#">
+                                <img src="./images/sns02.png" alt="sns">
+                            </a>
+                            <a href="#">
+                                <img src="./images/sns03.png" alt="sns">
+                            </a>
+                        </p>
+                    </li>
+                </ul><!-- .footer_list -->
+                <p class="copyright">
+                    Copyright © 2026 Proust. All rights reserved.
+                </p>
+            </div><!-- .inner_footer -->
+
+            <div class="aside">
+                <button>
+                    <img src="./images/top.png" alt="top 버튼">
+                </button>
+            </div>
+        </div>
+        <!-- footer E -->
+
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jQuery 오픈소스 -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js 제어구문 연결 -->
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
